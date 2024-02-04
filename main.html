@@ -4,26 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 <body>
-    <section id="accueil">
-        <div class="navbar">
-            <div class="title">
-                HANA & ARTHUR
+    <div class="mobile">
+        <section id="accueil-mobile">
+            <div class="home">
+                <div id="menuburger" class="menuburger" onclick="toggleMenu()">
+                    <img src="/images/menu.svg" width="40" height="40">
+                </div>
+                <div id="menu" class="menu">
+                    <img src="/images/close.svg" class="close-icon" onclick="toggleMenu()">
+                    <ul>
+                        <li><a href="#accueil-mobile" onclick="toggleMenu()">Accueil</a></li>
+                        <li><a href="#description-mobile" onclick="toggleMenu()">Description</a></li>
+                        <li><a href="#programme-mobile" onclick="toggleMenu()">Programme</a></li>
+                        <li><a href="#mairie-mobile" onclick="toggleMenu()">Mairie</a></li>
+                        <li><a href="#salle-mobile" onclick="toggleMenu()">Salle</a></li>
+                        <li><a href="#sleep-mobile" onclick="toggleMenu()">Où dormir ?</a></li>
+                        <li><a href="#hotel-mobile" onclick="toggleMenu()">Hôtels</a></li>
+                    </ul>
+                </div>
+                <div class="title">
+                    Nous serons mariés dans :
+                </div>
+                <div id="countdown"></div>
+                <div class="answer">N'oubliez pas de répondre !</div>
+                <img class="bg" src="/images/heathome.png">
             </div>
-            <div class="menu">
-                <p>Accueil</p>
-                <p>Programme</p>
-                <p>Mairie</p>
-                <p>Salle</p>
-                <p>Où dormir ?</p>
-                <p>Hôtels</p>
+        </section>
+        <section id="description-mobile">
+            <div class="home">
+                <div class="cadre">
+                    <img src="/images/cadre-mobile.png" class="cadre">
+                </div>
+                <div class="text">
+                    <p>Nous allons nous marier !</p>
+                    <p>En attendant le grand jour, nous avons créé ce site composé de diverses sections afin de vous tenir au courant de l’avancée du mariage et partager avec vous un maximum d'informations.</p>
+                    <p>Un détail important, dans la section "Accueil" vous pouvez confirmer ou non votre venue. Communiquez-le nous au plus vite afin que nous puissions nous organiser plus facilement.</p>
+                    <p>Bonne lecture et à très bientôt !</p>
+                </div>
+                <img src="/images/branche-mobile.png" class="b-top">
+                <img src="/images/branche-mobile.png" class="b-bot">
             </div>
-        </div>
-        <div class="home">
-            <img src="/images/hearthhome.svg" alt="" class="imagehome">
-        </div>
-    </section>
+        </section>
+        <section id="programme-mobile">
+            <div class="home">
+                <img src="/images/branche-mobile.png" class="b-top">
+                <img src="/images/branche-mobile.png" class="b-bot">
+            </div>
+        </section>
+        <section id="mairie-mobile">
+            <div class="home">
+                <img src="/images/branche-mobile.png" class="b-top">
+                <img src="/images/branche-mobile.png" class="b-bot">
+            </div>
+        </section>
+        <section id="salle-mobile">
+            <div class="home">
+                <img src="/images/branche-mobile.png" class="b-top">
+                <img src="/images/branche-mobile.png" class="b-bot">
+            </div>
+        </section>
+        <section id="sleep-mobile">
+            <div class="home">
+                <img src="/images/branche-mobile.png" class="b-top">
+                <img src="/images/branche-mobile.png" class="b-bot">
+            </div>
+        </section>
+        <section id="hotel-mobile">
+            <div class="home">
+                <img src="/images/branche-mobile.png" class="b-top">
+                <img src="/images/branche-mobile.png" class="b-bot">
+            </div>
+        </section>
+    </div>
+
+    <div class="web">
+        <section id="accueil_web">
+            <div class="navbar">
+                <div class="title">
+                    HANA & ARTHUR
+                </div>
+                <div class="menu">
+                    <p>Accueil</p>
+                    <p>Programme</p>
+                    <p>Mairie</p>
+                    <p>Salle</p>
+                    <p>Où dormir ?</p>
+                    <p>Hôtels</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/main.js"></script>
 </body>
 </html>
