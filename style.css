@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Great Vibes', cursive;
 }
 
 body {
@@ -55,7 +56,7 @@ body::-webkit-scrollbar-thumb {
                 a {
                     text-decoration: none;
                     color: #B8860B;
-                    font-size: 1.25em;
+                    font-size: 1em;
                 }
                 
                 .close-icon {
@@ -91,11 +92,13 @@ body::-webkit-scrollbar-thumb {
             position: absolute;
             background-color: white;
             bottom: 15%;
+            margin-left: 1em;
+            margin-right: 1em;
             padding: 0.25em;
             border: #B8860B 2px solid;
             color: #B8860B;
             border-radius: 15px;
-            font-size: 2em;
+            font-size: 1.5em;
         }
         .bg {
             width: 100%;
@@ -173,7 +176,131 @@ body::-webkit-scrollbar-thumb {
     }
 
     #programme-mobile {
+        .title {
+            width: 64%;
+            position: absolute;
+            top: 10%;
+            left: 18%;
+        }
+        .programme {
+            position: absolute;
+            top: 18%;
+            display: flex;
+            gap: 2em;
+            justify-content: space-between;
+        }
+        .text {
+            list-style: none;
+            color: #B8860B;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            gap: 3em;
+        }
+        li {
+            width: 75%;
+        }
+        .line {
+            width: 100%;
+            height: 70vh;
+        }
+        .icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5em;
+        }
+        .icon {
+            width: 70%;
+        }
+    }
 
+    #mairie-mobile {
+        .title {
+            width: 50%;
+            position: absolute;
+            top: 8%;
+            left: 25%;
+        }
+        .text {
+            position: absolute;
+            width: 80%;
+            left: 10%;
+            top: 17%;
+            text-align: center;
+            font-size: 0.75em;
+            color: #B8860B;
+        }
+        .photo {
+            position: absolute;
+            width: 80%;
+            bottom: 10%;
+            left: 10%;
+            border-radius: 20px;
+        }
+    }
+
+    #salle-mobile {
+        .title {
+            width: 40%;
+            position: absolute;
+            top: 10%;
+            left: 30%;
+        }
+        .text {
+            position: absolute;
+            width: 80%;
+            left: 10%;
+            top: 20%;
+            text-align: center;
+            font-size: 0.75em;
+            color: #B8860B;
+
+            h3 {
+                margin-bottom: 10px;
+            }
+            p {
+                margin-bottom: 10px;
+            }
+        }
+        .photo {
+            position: absolute;
+            width: 80%;
+            bottom: 13%;
+            left: 10%;
+            border-radius: 20px;
+        }
+    }
+
+    #sleep-mobile {
+        .title {
+            width: 64%;
+            position: absolute;
+            top: 10%;
+            left: 18%;
+        }
+        .text {
+            position: absolute;
+            width: 80%;
+            left: 10%;
+            top: 22%;
+            text-align: center;
+            font-size: 0.75em;
+            color: #B8860B;
+
+            p {
+                margin-bottom: 20px;
+            }
+        }
+        .photo {
+            position: absolute;
+            width: 80%;
+            bottom: 13%;
+            left: 10%;
+            border-radius: 20px;
+        }
     }
 
     .home {
