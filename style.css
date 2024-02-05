@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 body {
@@ -71,20 +73,15 @@ body::-webkit-scrollbar-thumb {
 
         .title {
             position: absolute;
-            bottom: 65%;
-            font-family: 'Great Vibes', cursive;
+            bottom: 50%;
             color: #B8860B;
             font-size: 3em;
             text-align: center;
         }
         #countdown {
             position: absolute;
-            background-color: white;
             bottom: 35%;
             color: #B8860B;
-            box-shadow: 1px 1px 17px 0px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 1px 1px 17px 0px rgba(0,0,0,0.75);
-            -moz-box-shadow: 1px 1px 17px 0px rgba(0,0,0,0.75);
             font-size: 2.5em;
             text-align: center;
         }
@@ -119,7 +116,6 @@ body::-webkit-scrollbar-thumb {
                 position: absolute;
                 text-align: center;
                 color: #B8860B;
-                font-family: 'Great Vibes', cursive;
                 font-size: 0.78em;
             }
             p {
@@ -141,7 +137,6 @@ body::-webkit-scrollbar-thumb {
                 bottom: 26%;
                 text-align: center;
                 color: #B8860B;
-                font-family: 'Great Vibes', cursive;
                 font-size: 0.95em;
             }
             p {
@@ -163,7 +158,6 @@ body::-webkit-scrollbar-thumb {
                 bottom: 25%;
                 text-align: center;
                 color: #B8860B;
-                font-family: 'Great Vibes', cursive;
                 font-size: 1.1em;
             }
             p {
