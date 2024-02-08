@@ -15,10 +15,22 @@ function updateCountdown() {
     const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
     document.getElementById("countdown").innerHTML = `
-        <p>${days} Jours</p>
-        <span>${formatNumber(hours)}h</span>
-        <span>${formatNumber(minutes)}m</span>
-        <span>${formatNumber(seconds)}s</span>
+        <div>
+            <span>${days}</span>
+            <p class="temp">jours</p>
+        </div>
+        <div>
+            <span>${formatNumber(hours)}</span>
+            <p>heures</p>
+        </div>
+        <div>
+            <span>${formatNumber(minutes)}</span>
+            <p>min</p>
+        </div>
+        <div>
+            <span>${formatNumber(seconds)}</span>
+            <p>sec</p>
+        </div>
     `;
 
     setTimeout(updateCountdown, 1000);
