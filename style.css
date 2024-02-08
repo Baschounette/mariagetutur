@@ -393,6 +393,23 @@ body::-webkit-scrollbar-thumb {
         a {
             text-decoration: none;
         }
+
+        .footer {
+            position: absolute;
+            bottom: 2%;
+            left: 2%;
+            width: 60%;
+            font-size: 0.75em;
+            color: #B8860B;
+            .basch {
+                font-size: 1.1em;
+                margin-bottom: 10px;
+            }
+            span {
+                text-decoration: underline 1px solid;
+                text-underline-offset: 2px;      
+            }
+        }
     }
 
 
