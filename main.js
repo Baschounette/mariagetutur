@@ -24,19 +24,6 @@ function updateCountdown() {
     setTimeout(updateCountdown, 1000);
 }
 
-
-// var prevScrollpos = window.scrollY;
-
-// window.onscroll = function() {
-//     if (window.scrollY > currentScrollPos) {
-//         document.getElementById("menuburger").style.position = "floatable";
-//         document.getElementById("menu").style.position = "floatable";
-//     } else {
-//         document.getElementById("menuburger").style.position = "fixed";
-//         document.getElementById("menu").style.disppositionlay = "fixed";
-//     }
-// };
-
 function toggleMenu() {
     var menu = document.getElementById("menu");
     menu.style.display = (menu.style.display === "block") ? "none" : "block";
