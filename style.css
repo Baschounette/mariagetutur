@@ -369,6 +369,34 @@ body::-webkit-scrollbar-thumb {
         }
     }
 
+    #hotel-mobile {
+        .maps {
+            width: 80%;
+            height: 50vh;
+            object-fit: cover;
+            position: absolute;
+            left: 10%;
+            top: 18%;
+        }
+
+        .text {
+            position: absolute;
+            top: 70%;
+            color: #B8860B;
+            font-size: 1.5em;
+            text-align: center;
+            h5 {
+                font-size: 0.5em;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+
+
     .home {
         position: relative;
         width: 100%;
