@@ -33,6 +33,25 @@ function updateCountdown() {
         </div>
     `;
 
+    document.getElementById("countdownWeb").innerHTML = `
+        <div>
+            <span>${days}</span>
+            <p class="temp">jours</p>
+        </div>
+        <div>
+            <span>${formatNumber(hours)}</span>
+            <p>heures</p>
+        </div>
+        <div>
+            <span>${formatNumber(minutes)}</span>
+            <p>min</p>
+        </div>
+        <div>
+            <span>${formatNumber(seconds)}</span>
+            <p>sec</p>
+        </div>
+    `;
+
     setTimeout(updateCountdown, 1000);
 }
 
